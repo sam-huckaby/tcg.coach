@@ -1,4 +1,10 @@
 <tcg-navbar></tcg-navbar>
-<p>Coaches Works!</p>
-
-<router-outlet></router-outlet>
+<div class="flex flex-row w-full justify-around">
+	<div class="tcg-coach-list">
+		<p>Coaches Works!</p>
+		<button class="border border-solid border-black rounded p-4">View Coach</button>
+	</div>
+	<div class="tcg-coach-detail">
+		<router-outlet></router-outlet>
+	</div>
+</div>
